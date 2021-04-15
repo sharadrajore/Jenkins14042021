@@ -20,5 +20,10 @@ public class HelloController  {
 	public String sayBye() {
 		return "<h1>Good Bye</h1>";
 	}
+	
+	@RequestMapping("/greet")
+	public String greet() {
+		return "<h1>Good Morning !!!</h1>";
+	}
 
 }
